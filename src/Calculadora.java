@@ -11,11 +11,13 @@ public class Calculadora {
 		System.out.println("[2] - SUBTRAÇÃO");
 		System.out.println("[3] - MULTIPLICAÇÃO");
 		System.out.println("[4] - DIVISÃO");
+		
 		operacao = input.nextInt();
+		
 		
 		switch(operacao) {
 		  case 1:
-			  System.out.println(Calculadora.soma());
+			 System.out.println(Calculadora.soma()); 
 		    
 		    break;
 		  case 2:
@@ -65,7 +67,7 @@ public class Calculadora {
 	    int val1 = input.nextInt();
 	    System.out.println("valor 2:");
 	    int val2 = input.nextInt();
-	    int multiplicacao = val1 - val2;
+	    int multiplicacao = val1 * val2;
 	   return "O valor de sua subtracao é de: "+ multiplicacao+"\n============================================";
 
 	}
